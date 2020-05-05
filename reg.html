@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SmartEDU Education School</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="icon" href="images/app.png" type="image/png" sizes="16x16">
+
+
+
+  <script type="text/javascript">
+    function validation()
+    {
+
+      
+      
+      if(document.f1.t1.value=="")
+      {
+        alert("Please Enter First Name of Student");
+        return false;
+      }
+      if(document.f1.t2.value=="")
+      {
+        alert("Please Enter Middle Name of Student");
+        return false;
+      }
+      if(document.f1.t3.value=="")
+      {
+        alert("Please Enter Last Name of Student");
+        return false;
+      }
+      if(document.f1.d1.value=="")
+      {
+        alert("Please Enter Date of Birth");
+        return false;
+      }
+      if(document.f1.t4.value=="")
+      {
+        alert("Please Enter Place of Birth");
+        return false;
+      }
+      if((document.f1.r1[0].checked==false)&&(document.f1.r1[0].checked==false))
+      {
+        alert("Please Select Your Gender");
+        return false;
+      }
+    
+      if(document.f1.mobile.value=="")
+      {
+        alert("Please Enter Mobile Number");
+        return false;
+      }
+    }
+    
+   </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <style type="text/css">
+    
+    .register
+    {
+      margin: 0 auto;
+      padding: 0;
+      height: auto;
+      width: 1330px;
+    }
+    .register h5
+    {
+      margin-left: 1100px;
+      font-size: 20px;
+      color: red;
+    }
+    .register h1
+    {
+      margin-top:30px;
+      color:darkblue;
+    }
+    hr 
+    { 
+           display: block;
+           margin-top: 0.5em;
+           margin-bottom: 0.5em;
+           margin-left: auto;
+           margin-right: auto;
+           border-style: inset;
+           border-width: 2px;
+           border-color:gray; 
+    }
+
+    .appliedfor
+    {
+      float: left;
+    }
+    .appliedfor h2
+    {
+      font-size: 18px;
+      width: 290px;
+      margin-left: 30px;
+    }
+
+    span
+    {
+      color: red;
+    }
+
+   .class1
+   {
+    float: left;
+    margin-left: 100px;
+    font-size: 22px;
+   }
+
+   select
+   {
+    width: 150px;
+    text-align: center;
+   }
+   .class2
+   {
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size:22px;
+   }
+
+   .s1
+   {
+    float: left;
+    margin-top:20px;
+   }
+
+
+   .register1
+    {
+      float:left; 
+      height: auto;
+      width: 1330px;
+    }
+    .register1 h1
+    {
+      margin-top:60px;
+      color:darkblue;
+    }
+
+    .nm
+    {
+        float:left;
+        font-size:22px;
+        margin-left: 40px;
+    }
+    .box
+    {
+      float:left;
+      margin-left: 50px;
+    }
+    .a1
+    {
+      height:30px;
+      width:200px;
+      font-size:18px;
+    }
+   
+    .nm1
+    {
+        float:left;
+        font-size:22px;
+        margin-top:-40px;
+        margin-left:450px;
+    }
+    .box1
+    {
+      float:left;
+      margin-left: 630px;
+      margin-top:-45px;
+    }
+
+    .nm2
+    {
+        float:left;
+        font-size:22px;
+        margin-left:900px;
+        margin-top:-40px;
+    }
+    .box2
+    {
+      float:left;
+      margin-left:1070px;
+      margin-top:-45px;
+    }
+
+    .nm3
+    {
+        float:left;
+        font-size:22px;
+        margin-left: 40px;
+        margin-top:60px;
+    }
+    .box3
+    {
+      float:left;
+      margin-left:80px;
+      margin-top:55px; 
+    }
+    .nm4
+    {
+        float:left;
+        font-size:22px;
+        margin-left: 600px;
+        margin-top:-40px;
+    }
+    .box4
+    {
+      float:left;
+      margin-left:820px;
+      margin-top:-45px; 
+    }
+
+    .nm5
+    {
+        float:left;
+        font-size:22px;
+        margin-left: 40px;
+        margin-top:50px;
+    }
+    .box5
+    {
+      float:left;
+      margin-left:100px;
+      margin-top:30px; 
+    }
+    .a2
+    {
+      float:left; 
+      font-size:20px; 
+      margin-left: -20px;
+      margin-top: 30px;
+    }
+    .a3
+    {
+      float: left;
+      margin-left: 100px;
+      margin-top:-43px;
+    }
+    
+    .box5 h3
+    {
+      font-size:22px;
+      margin-left:10px;
+      margin-top:25px;
+
+    }
+    .box5 h4
+    {
+      font-size:22px;
+      margin-left:130px;
+      margin-top:-50px;
+    }
+
+    .nm6
+    {
+        float:left;
+        font-size:22px;
+        margin-left: 540px;
+        margin-top:-55px;
+    }
+    .box6
+    {
+      float:left;
+      margin-left:700px;
+      margin-top:-60px; 
+    }
+
+    .nm7
+    {
+        float:left;
+        font-size:22px;
+        margin-left:950px;
+        margin-top:-55px;
+    }
+    .box7
+    {
+      float:left;
+      margin-left:1080px;
+      margin-top:-60px; 
+    }
+    .nm8
+    {
+        float:left;
+        font-size:22px;
+        margin-left:45px;
+        margin-top:40px;
+    }
+    .box8
+    {
+      float:left;
+      margin-left:100px;
+      margin-top:35px; 
+    }
+    .nm9
+    {
+        float:left;
+        font-size:22px;
+        margin-left:700px;
+        margin-top:-35px;
+    }
+    .box9
+    {
+      float:left;
+      margin-left:900px;
+      margin-top:-40px; 
+    }
+    
+    .nm10
+    {
+        float:left;
+        font-size:22px;
+        margin-left:40px;
+        margin-top:50px;
+    }
+    .box10
+    {
+      float:left;
+      margin-left:50px;
+      margin-top:55px; 
+    }   
+    .box10 h3
+    {
+      margin-top:-25px;
+      margin-left:40px;
+      font-size:22px;
+    }
+
+    .box10 h4
+    {
+      margin-top:-65px;
+      margin-left:150px;
+      font-size:22px;
+    }
+
+    .box10 h5
+    {
+      margin-top:-73px;
+      margin-left:280px;
+      font-size:22px;
+      color: black;
+    } 
+    .box10 h6 
+    {
+      margin-top:-80px;
+      margin-left:400px;
+      font-size:22px;
+      color: black;
+    }
+    .box10 h6 input
+    {
+      margin-left:10px;
+      margin-top: -15px;
+    }
+
+
+    .nm11
+    {
+        float:left;
+        font-size:22px;
+        margin-left:40px;
+        margin-top:5px;
+    }
+    .box11
+    {
+      float:left;
+      margin-left:50px;
+      margin-top:0px; 
+    }
+
+    .nm12
+    {
+        float:left;
+        font-size:22px;
+        margin-left:650px;
+        margin-top:-30px;
+    }
+    .box12
+    {
+      float:left;
+      margin-left:850px;
+      margin-top:-35px; 
+    }
+
+
+    .sub
+    {
+      float:left;
+      margin-left: 450px;
+      padding: 10px;
+      font-size:20px;
+      background-color:yellow;
+      color: black;
+      border:solid green;
+      border-radius:15px;
+    }
+
+    .sub:hover
+    {
+      background-color:red;
+      color: white;
+      transition-duration:1s;
+    }
+    .res
+    {
+      float:left;
+      margin-left:100px;
+      padding: 10px;
+      font-size:20px;
+      background-color:yellow;
+      color: black;
+      border:solid green;
+      border-radius:15px;
+    }
+
+    .res:hover
+    {
+      background-color:red;
+      color: white;
+      transition-duration:1s;
+    }
+
+  </style>
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <img src="images/logo.png">
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html"> Home</li></a>
+        <li><a href="#"> About us</a>
+        <li><a href="teacher.html"> Teacher</a>
+        <li><a href="rules.html">Rules</a>
+        
+      </ul>
+    </div>
+    
+  </div>
+
+  <div class="register">
+    <h5>*Fields Are Mandatory
+
+    <h1>
+      Applied For :-
+      <hr>
+    </h1>
+
+    <div class="appliedfor">
+      <form name="f2" action="reg.html" method="post">
+        <table width="900">
+          <tr>
+            <td class="class1">
+              Class<span>*</span>
+            </td>
+            <td>
+              <select name="select1">
+                <option>SELECT</option>
+                
+                <option>5th</option>
+                <option>6th</option>
+                <option>7th</option>
+                <option>8th</option>
+                <option>9th</option>
+                <option>10th</option>
+                <option>11th</option>
+                <option>12th</option>
+                <option>BCA</option>
+                <option>BCOM</option>
+                <option>BBA</option>
+                
+                </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="class2">
+              Medium<span>*</span>
+            </td>
+            <td>
+              <select  class="s1">
+                <option>SELECT</option>
+                <option>English</option>
+                <option>Gujrati</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <div class="register1">
+
+      <h1>Candidate Details :-</h1> 
+      <hr>
+
+      <form name="f1" action="reg.html" method="post">
+        <table>
+          <tr>
+            <td class="nm">
+              First Name<span>*</span>
+            </td>
+            <td class="box">
+              <input class="a1" type="text" name="t1" placeholder="Enter First Name">
+            </td>
+          </tr>
+
+          <tr>
+            <td class="nm1">
+              Middle Name<span>*</span>
+            </td>
+            <td class="box1">
+              <input class="a1" type="text" name="t2" placeholder="Enter Middle Name">
+            </td>
+          </tr>
+
+           <tr>
+            <td class="nm2">
+              Last Name<span>*</span>
+            </td>
+            <td class="box2">
+              <input class="a1" type="text" name="t3" placeholder="Enter Last Name">
+            </td>
+          </tr>
+          <tr>
+            <td class="nm3">
+              Date of Birth<span>*</span>
+            </td>
+            <td class="box3">
+              <input class="a1" type="date" name="d1">
+            </td>
+          </tr>
+          <tr>
+            <td class="nm4">
+              Place of Birth<span>*</span>
+            </td>
+            <td class="box4">
+              <input class="a1" type="input" name="t4" placeholder="Place of Birth">
+            </td>
+          </tr>
+          <tr>
+            <td class="nm5">
+              Gender<span>*</span>
+            </td>
+            <td class="box5">
+              <input class="a2" type="radio" name="r1"><h3>Male</h3>
+              <input class="a3" type="radio" name="r1"><h4>Female</h4>
+            </td>
+          </tr>
+          <tr>
+            <td class="nm6">
+              Mobile No<span>*</span>
+            </td>
+            <td class="box6">
+              <input class="a1" type="text" name="mobile" placeholder="Enter Mobile Number">
+            </td>
+          </tr>
+          <tr>
+            <td class="nm7">
+              Phone No
+            </td>
+            <td class="box7">
+              <input class="a1" type="text" name="m2" placeholder="Enter Phone Number">
+
+            </td>
+          </tr>
+          <tr>
+            <td class="nm8">
+              Residential Address<span>*</span>
+            </td>
+            <td class="box8">
+              <textarea class="a1"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td class="nm9">
+              Email Id
+            </td>
+            <td class="box9">
+              <input class="a1" type="email" name="e1">
+            </td>
+          </tr>
+          <tr>
+          <td colspan="2">
+            <h1>Father's Detail :-</h1>
+            <hr><br><br>
+          </td></tr>
+          <tr>
+          <td class="nm">
+            First Name<span>*</span>
+          </td>
+          <td class="box">
+            <input class="a1" type="text" name="f1" placeholder="Enter First Name">
+          </td></tr>
+          <tr>
+            <td class="nm1">
+              Middle Name<span>*</span>
+            </td>
+            <td class="box1">
+              <input class="a1" type="text" name="f2" placeholder="Enter Middle Name">
+            </td>
+          </tr>
+
+           <tr>
+            <td class="nm2">
+              Last Name<span>*</span>
+            </td>
+            <td class="box2">
+              <input class="a1" type="text" name="f3" placeholder="Enter Last Name">
+            </td>
+          </tr>
+          <tr>
+            <td class="nm10">
+              Occupation<span>*</span>
+            </td>
+            <td class="box10">
+              <input type="radio" name="r2"><h3>Employee</h3> &nbsp;&nbsp;
+              <h4><input type="radio" name="r2">&nbsp;Buisness</h4>&nbsp;&nbsp;
+              <h5><input type="radio" name="r2">&nbsp;Service</h5>&nbsp;&nbsp;
+              <h6><input type="radio" name="r2">&nbsp;&nbsp;<input class="a1" type="text" name="f4" placeholder="Other"></h6>
+            </td>
+          </tr>
+          <tr>
+            <td class="nm11">
+              Mobile Number<span>*</span>
+            </td>
+            <td class="box11">
+              <input class="a1" type="text" name="f5" placeholder="Enter Mobile Number">
+            </td>
+          </tr>
+          <tr>
+            <td class="nm12">
+              Phone Number
+            </td>
+            <td class="box12">
+              <input class="a1" type="text" name="f6" placeholder="Enter Phone Number">
+            </td>
+          </tr><br><br>
+          <tr>
+          <td colspan="2">
+            <h1>Mother's Detail :-</h1>
+            <hr><br><br>
+          </td>
+          </tr>
+          <tr>
+          <td class="nm">
+            First Name<span>*</span>
+          </td>
+          <td class="box">
+            <input class="a1" type="text" name="mo1" placeholder="Enter First Name">
+          </td></tr>
+          <tr>
+            <td class="nm1">
+              Middle Name<span>*</span>
+            </td>
+            <td class="box1">
+              <input class="a1" type="text" name="mo2" placeholder="Enter Middle Name">
+            </td>
+          </tr>
+
+           <tr>
+            <td class="nm2">
+              Last Name<span>*</span>
+            </td>
+            <td class="box2">
+              <input class="a1" type="text" name="f3" placeholder="Enter Last Name">
+            </td>
+          </tr>
+          <tr>
+            <td class="nm10">
+              Occupation<span>*</span>
+            </td>
+            <td class="box10">
+              <input type="radio" name="r2"><h3>Employee</h3> &nbsp;&nbsp;
+              <h4><input type="radio" name="r2">&nbsp;HouseWife</h4>&nbsp;&nbsp;
+              <h5>&nbsp;&nbsp;&nbsp;<input type="radio" name="r2">&nbsp;Service</h5>&nbsp;&nbsp;
+              
+          </tr>
+          <tr>
+            <td class="nm11">
+              Mobile Number<span>*</span>
+            </td>
+            <td class="box11">
+              <input class="a1" type="text" name="f5" placeholder="Enter Mobile Number">
+            </td>
+          </tr>
+          <tr>
+            <td class="nm12">
+              Phone Number
+            </td>
+            <td class="box12">
+              <input class="a1" type="text" name="f6" placeholder="Enter Phone Number">
+            </td>
+          </tr>
+          <tr>
+            <td><br>
+              <hr><br>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><input class="sub" type="submit" name="s1" value="SUBMIT" onclick="return validation();">
+                <input class="res" type="reset" name="reset" value="RESET">
+            </td>
+          </tr>
+          <br>
+          <tr>
+            <td><br>
+              <hr>
+            </td>
+          </tr>
+          <br>
+        </table>
+      </form>
+
+    </div>
+
+
+  </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <div class="footer">
+    
+    <div class="location">
+      <img src="images/location.png">
+      <h4>Surat,Gujarat</h4>
+    </div>
+    <div class="ph">
+      <img src="images/phone.png">
+      <h4>+917486981727</h4>
+    </div>
+    <div class="mail">
+      <img src="images/mail.png">
+      <h4>nandanttt@gmail.com</h4>
+    </div>
+
+    <div class="fcon">
+      <h1>About</h1>
+      <p> Established in <b>1997</b>, today the school has grown into a family of <b>1700 students</b> and <b>50 dedicated and professional teachers</b>.We believe that good education is the high road to each individual and national progress.The school’s mission and quality is managed through closely integrated, innovative and dedicated team, which strength in the matrix by proper network.</p>
+    </div>
+
+    <a href="https://www.instagram.com/mr_nandan_patel/"><img src="images/insta.png" class="inst"></a>
+    <a href="https://www.youtube.com/channel/UCkoxAfPG9awfpvfwvOvG2Lg?view_as=subscriber"><img src="images/youtube.png" class="google"></a>
+    <a href="https://twitter.com/Nandanp007"><img src="images/twitter.png" class="twitter"></a>
+    <a href="https://www.facebook.com/nandan.patel.2142?ref=bookmarks"><img src="images/facebook.png" class="link"></a>
+  </div>
+
+</body>
+</html>
+
+
+
+
